@@ -36,15 +36,27 @@ $navbar-default-bg:  #FF1493;
 }
 
 .btn-xlarge {
+  color: white;
   font-size:1.7em;
   background-color: #FF1493;
   border: none;
 }
 
 .btn-xlarge:hover {
+  color: white;
   font-size:1.7em;
   background-color: #00BFFF;
   border: none;
+}
+
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top:5px;
+  
+}
+
+.description {
+  margin-top:0px;
 }
 
 footer {
@@ -71,3 +83,4 @@ footer ul li {
   float: left;
   margin-left:15px;
 }
+
