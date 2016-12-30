@@ -27,6 +27,7 @@ class ArticlesController < ApplicationController
   
     def update
     #render plain: params[:article].inspect
+    #@article.user = User.first
     if @article.update(article_params)
       flash[:success] = "Article was successfuly updated"
       redirect_to article_path(@article)  
